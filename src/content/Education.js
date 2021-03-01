@@ -19,6 +19,14 @@ export default function Education() {
              modules3="Consumer Behaviour, Crisis Communication and Reputation Management, Event Management Badge of Excellence, Event Tourism, Strategic Management, Independent Study"
             />
             <Widecard 
+             title="Software Developer" 
+             place="Purple Beard LTD" 
+             from="2021" 
+             to=" 2021"
+             description="Three months Apprenticeship of Software Development, giving to all the students skills in HTML, CSS, React, JavaScript and WordPress. During the course, 
+             students presented a small project and a full personalized portfolio, including their skills, education and how to be contacted."             
+            />
+            <Widecard 
              title="Professional Tourism Technician" 
              place="Professional Profitecla School" 
              from="2015" 
