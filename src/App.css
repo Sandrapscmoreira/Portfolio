@@ -1,155 +1,176 @@
 *{
-		  padding:0;
-		  margin:0;
-		  box-sizing: border-box;
-		  font-family: 'Roboto Slab', serif;
-		
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
 
-		}
-		
 
-		.body{
-		  height: 100vh;
-		  overflow: hidden; 
-		  font-family: Arial, Helvetica, sans-serif;
-		
+}
 
-		}
-		
 
-		.App{
-		  width: 100vw;
-		  display:flex;
-		  flex-direction: row;
-		  background-color: white;
-		}
-		
+.body{
+  height: 100vh;
+  overflow: hidden; 
+  font-family: Arial, Helvetica, sans-serif;
 
-		.sidenav{
-		  width:20vw;
-		  height: 115vh;
-		  background: linear-gradient(#EB1ABF, #250DEB); 
-		  color: honeydew;
-		  font-size: 1.2rem;
-		  padding: 3em;
-		}
-		
 
-		.contents{
-		  flex:1;
-		 ;
-		}
-		
+}
 
-		.navitem{
-		  margin: 1.5rem auto;
-		  text-align: center;
-		  margin-top: 70px;
-		}
-		
 
-		.navitem-text{
-		  text-decoration: none;
-		  color: honeydew;
-		}
-		
+.App{
+  width: 100vw;
+  display:flex;
+  flex-direction: row;
+  background-color: white;
+}
 
-		.active{
-		  font-weight: bold;
-		}
-		
 
-		.display-picture{
-		  border:1px;
-		  border-radius: 50%;
-		  width: 10rem;
-		  height: 200px
-		}
-		
+.sidenav{
+  width:20vw;
+  height: 115vh;
+  background: linear-gradient(#05445E, #D4F1F4); 
+  color: honeydew;
+  font-size: 1.2rem;
+  padding: 3em;
+}
 
-		.home{
-		  margin: 1rem;
-		  display: flex;
-		  flex-direction: column;
-		  justify-content: center;
-		  align-items: center;
-		}
-		
 
-		.typing-effect{
-		  margin: 5rem;
-		  font-size: 2rem;
-		  font-weight:500;
-		}
-		
+.contents{
+  flex:1;
+ ;
+}
 
-		.social a {
-		  margin: 1rem;
-		  font-size: 1.5rem;
-		  color: #B2D9EA;
-		}
-		
 
-		.about {
-		  margin:2rem; 
-		
+.navitem{
+  margin: 1.5rem auto;
+  text-align: center;
+  margin-top: 70px;
+}
 
-		}
-		
 
-		.education{
-		  margin: 2rem;
-		}
-		.education h1{
-		  color:#DFC7C1;
-		} 
-		
+.navitem-text{
+  text-decoration: none;
+  color: honeydew;
+}
 
-		.widecard{
-		  margin: 2rem;
-		  padding: 1rem;
-		  color:#84B4C8;
-		}
-		
 
-		.widecard:hover{
-		  box-shadow: 10px 10px 5px grey;
-		  color:#619196;
-		}
-		
+.active{
+  font-weight: bold;
+}
 
-		.skills{
-		  margin: 2rem;
-		}
-		
 
-		.skills li{
-		  list-style-type: row;
-		  padding: 1rem;
-		  text-decoration: none;
-		}
-		
+.display-picture{
+  border:1px;
+  border-radius: 50%;
+  width: 10rem;
+  height: 200px
+}
 
-		.skillsicon{
-		  margin:2rem;
-		  font-size: 1.5rem;
-		  color: #B2D9EA;
-		  width:10px;
-		
 
-		}
-		
+.home{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-		.contact{
-		  margin: 2rem;
-		
 
-		}
-		
+.typing-effect{
+  margin: 5rem;
+  font-size: 2rem;
+  font-weight:500;
+}
 
-		.contact h3{
-		  margin: 2rem;
-		
 
-		} 
+.social a {
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: #05445E
+;
+}
+
+
+.about {
+  margin:2rem; 
+
+
+}
+.about h1,
+.education h1,
+.skills h1{
+color:#05445E;
+}
+
+.about h3,
+.about p
+.skills li{
+color:#189AB4; 
+} 
+
+
+.education{
+  margin: 2rem;
+}
+
+
+
+
+
+.widecard{
+  margin: 2rem;
+  padding: 1rem;
+  color: #189AB4;
+}
+
+
+.widecard:hover{
+  box-shadow: 10px 10px 5px grey;
+  color: #75E6DA;
+}
+
+
+.skills{
+  margin: 2rem;
+display: flex;
+flex-direction: column;
+
+}
+
+
+.skills ul{
+list-style-type: row;
+padding: 1rem;
+list-style-type: none;
+column-count: 3;
+column-gap: 20px;
+}
+
+.skillsicon{
+margin:5rem;
+font-size: 1.5rem;
+color: #05445E;
+width:10px;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+
+.contact{
+margin: 2rem;
+
+}
+
+.contact h3{
+margin: 2rem;
+
+}
+
+.skillsicon i{
+margin: 2rem;
+
+}
+
+ 
 
