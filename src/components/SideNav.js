@@ -1,6 +1,5 @@
 import { Component } from "react";
 import NavItem from "./NavItem";
-import Social from "./Social";
 
 class SideNav extends Component {
   state = { activeNavItem: "" };
