@@ -1,0 +1,128 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Roboto Slab', serif;
+  
+}
+
+.body{
+  height: 100vh;
+  overflow: hidden; 
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.App{
+  width: 100vw;
+  display:flex;
+  flex-direction: row;
+  background-color: white;
+}
+
+.sidenav{
+  width:20vw;
+  height: 115vh;
+  background: linear-gradient(#EB1ABF, #250DEB); 
+  color: honeydew;
+  font-size: 1.2rem;
+  padding: 3em;
+}
+
+.contents{
+  flex:1;
+ ;
+}
+
+.navitem{
+  margin: 1.5rem auto;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.navitem-text{
+  text-decoration: none;
+  color: honeydew;
+}
+
+.active{
+  font-weight: bold;
+}
+
+.display-picture{
+  border:1px;
+  border-radius: 50%;
+  width: 10rem;
+  height: 200px
+}
+
+.home{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.typing-effect{
+  margin: 5rem;
+  font-size: 2rem;
+  font-weight:500;
+}
+
+.social a {
+  margin: 1rem;
+  font-size: 1.5rem;
+  color: #B2D9EA;
+}
+
+.about {
+  margin:2rem; 
+  
+}
+
+.education{
+  margin: 2rem;
+}
+.education h1{
+  color:#DFC7C1;
+} 
+
+.widecard{
+  margin: 2rem;
+  padding: 1rem;
+  color:#84B4C8;
+}
+
+.widecard:hover{
+  box-shadow: 10px 10px 5px grey;
+  color:#619196;
+}
+
+.skills{
+  margin: 2rem;
+}
+
+.skills li{
+  list-style-type: row;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.skillsicon{
+  margin:2rem;
+  font-size: 1.5rem;
+  color: #B2D9EA;
+  width:10px;
+
+}
+
+.contact{
+  margin: 2rem;
+
+}
+
+.contact h3{
+  margin: 2rem;
+
+}
