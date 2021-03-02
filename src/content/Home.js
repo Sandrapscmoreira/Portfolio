@@ -7,7 +7,7 @@ const Home = () => {
         <img src={dp} alt="Sandra Moreira" className="display-picture" />
         <ReactTypingEffect 
         className='typing-effect' 
-        text={"I am Sandra Moreira, a Final Year Event Management Student and a Software Developer"}
+        text={"Sandra Moreira"}
         />
          <Social />
     </div>

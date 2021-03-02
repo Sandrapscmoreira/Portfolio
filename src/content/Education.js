@@ -3,8 +3,7 @@ import Widecard from "../components/Widecard";
 export default function Education() {
     return(
         <div className="contents education">
-            <h1>My Education</h1>
-            <br/>
+            <h1>Education</h1>
             <Widecard 
              title="Bachelor Events Management" 
              place="University of Derby" 
@@ -19,6 +18,14 @@ export default function Education() {
              modules3="Consumer Behaviour, Crisis Communication and Reputation Management, Event Management Badge of Excellence, Event Tourism, Strategic Management, Independent Study"
             />
             <Widecard 
+             title="Software Developer" 
+             place="Purple Beard LTD" 
+             from="2021" 
+             to=" 2021"
+             description="Three months Apprenticeship of Software Development, giving to all the students skills in HTML, CSS, React, JavaScript and WordPress. During the course, 
+             students presented a small project and a full personalized portfolio, including their skills, education and how to be contacted."             
+            />
+            <Widecard 
              title="Professional Tourism Technician" 
              place="Professional Profitecla School" 
              from="2015" 
@@ -26,6 +33,7 @@ export default function Education() {
              description="Three years of Tourism Education, with volunteering in several events in Porto City, such as ComicCon and Porto Marathons. Final Project for the conclusion of the course was the creation of a 
              business, and the execution in a real life scenario."             
             />
+            
         </div>
     );
 };
