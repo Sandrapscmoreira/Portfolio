@@ -6,6 +6,7 @@ import About from './content/About';
 import Education from "./content/Education";
 import Skills from './content/Skills';
 import Contact from './content/Contact';
+import ContactForm from './components/ContactForm';
 
 function App() {
   return(
@@ -28,7 +29,7 @@ function App() {
          <Contact/>
        </Route>
 
-
+      
       </div>
     </Router>
       

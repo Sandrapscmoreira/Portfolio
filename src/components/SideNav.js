@@ -25,11 +25,7 @@ class SideNav extends Component {
             tolink="/"
             handleNavItemOnClick={this.handleNavItemOnClick}
           />
-          <NavItem
-            item="About"
-            tolink="/about"
-            handleNavItemOnClick={this.handleNavItemOnClick}
-          />
+          
           <NavItem
             item="Education"
             tolink="/education"

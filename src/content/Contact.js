@@ -1,16 +1,15 @@
-import Social from "../components/Social";
+import ContactForm from "../components/ContactForm";
 
 export default function Contact () {
     return(
         <div className="contents contact">
-            <h1>Contact Me</h1>
-            <br/>
-            <h3>Email: sandrapatriciacm233@gmail.com</h3>
-            <br/>
-            <h3>Phone Number: +447366392335</h3>
-            <br/>
-
-        <Social/>
+         <ContactForm/>
+         <ul class = "icons">
+            <li><a href="http://www.linkedin.com/in/sandra-moreira-0a878b172/"><i className="fab fa-linkedin-in"></i></a></li>
+            <li><a href="https://www.instagram.com/sandrapsmoreira/"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href="https://www.pinterest.co.uk/sandrapscmoreira/_saved/"><i class="fab fa-pinterest"></i></a></li>
+        </ul>
+        
         </div>
     )
 }
