@@ -21,6 +21,7 @@
   background-color: whitesmoke;
 }
 
+
 .sidenav{
   width:20vw;
   height: 125vh;
@@ -34,16 +35,19 @@
   flex:1;
 }
 
+
 .navitem{
   margin: 1.5rem auto;
   text-align: center;
   margin-top: 70px;
 }
 
+
 .navitem-text{
   text-decoration: none;
   color: honeydew;
 }
+
 
 .active{
   font-weight: bold;
@@ -66,6 +70,13 @@
   color:#189AB4; 
 } 
 
+.about h3,
+.about p
+.skills li{
+color:#189AB4; 
+} 
+
+
 .education{
   margin: 2rem;
 }
@@ -74,6 +85,7 @@
   padding: 1rem;
   color: #189AB4;
 }
+
 
 .widecard:hover{
   box-shadow: 10px 10px 5px grey;
@@ -84,6 +96,9 @@
 
 .contact{
   margin: 2rem;
+display: flex;
+flex-direction: column;
+
 }
 
 .container{
