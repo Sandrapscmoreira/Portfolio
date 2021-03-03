@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../App.css";
-import { db } from "../firebase";
 
 const ContactForm = () => {
     const [name, setName] = useState("");
@@ -10,20 +9,6 @@ const ContactForm = () => {
        const handleSubmit = (e) => {
         e.preventDefault();
       
-        db.collection("contacts")
-        .add({
-            name:name,
-            email:email,
-            message:message,
-        })
-
-        .then(() => {
-            alert("Request has been submitted");
-        })
-        .catch((error) => {
-            alert(error.message);
-        });
-
         setName("");
         setEmail("");
         setMessage("");
