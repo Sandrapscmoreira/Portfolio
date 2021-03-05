@@ -1,7 +1,7 @@
 import './App.css';
 import SideNav from './components/SideNav';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import About from './content/About';
+import Home from './content/Home';
 import Education from "./content/Education";
 import Skills from './content/Skills';
 import Contact from './content/Contact';
@@ -13,8 +13,8 @@ function App() {
       <div className="App">
        <SideNav/>
        
-       <Route exact path="/about">
-        <About/>
+       <Route exact path="/">
+        <Home/>
        </Route>
        <Route exact path="/education">
         <Education/>

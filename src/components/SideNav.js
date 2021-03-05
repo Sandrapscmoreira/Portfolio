@@ -21,8 +21,8 @@ class SideNav extends Component {
       <nav className="sidenav">
         <ul>
           <NavItem
-            item="About"
-            tolink="/about"
+            item="Home"
+            tolink="/"
             handleNavItemOnClick={this.handleNavItemOnClick}
           />
           
